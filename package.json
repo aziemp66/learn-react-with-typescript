@@ -1,0 +1,19 @@
+{
+  "name": "react-with-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aziemp66/learn-react-with-typescript.git",
+  "author": "Azie Melza Pratama <aziemp66@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
