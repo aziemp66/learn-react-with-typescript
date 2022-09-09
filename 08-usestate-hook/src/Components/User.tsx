@@ -16,11 +16,7 @@ const User = () => {
     <div>
       <button onClick={handleLogin}>Log In</button>
       <button onClick={handleLogout}>Log Out</button>
-      <p>
-        {user
-          ? `User name is ${user.name} & his email is ${user.email}`
-          : "User is not logged in"}
-      </p>
+      <p>{`User name is ${user?.name} & his email is ${user?.email}`}</p>
     </div>
   );
 };
